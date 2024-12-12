@@ -3,8 +3,8 @@
 namespace Spatie\MediaLibrary;
 
 use DateTimeInterface;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use MongoDB\Laravel\Relations\MorphMany;
+use MongoDB\Laravel\Eloquent\SoftDeletes;
 use Illuminate\Http\File;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
