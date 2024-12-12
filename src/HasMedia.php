@@ -2,7 +2,7 @@
 
 namespace Spatie\MediaLibrary;
 
-use Illuminate\Database\Eloquent\Relations\MorphMany;
+use MongoDB\Laravel\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Collection;
 use Spatie\MediaLibrary\Conversions\Conversion;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
