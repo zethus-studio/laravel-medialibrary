@@ -3,7 +3,7 @@
 namespace Spatie\MediaLibrary\MediaCollections;
 
 use Closure;
-use Illuminate\Database\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
