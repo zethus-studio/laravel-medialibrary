@@ -3,7 +3,7 @@
 namespace Spatie\MediaLibrary\MediaCollections;
 
 use Closure;
-use Illuminate\Database\Eloquent\Builder;
+use MongoDB\Laravel\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
